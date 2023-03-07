@@ -112,7 +112,7 @@ public class RiderService : IRiderService
         {
             var itemJson = new StringContent(JsonSerializer.Serialize(rider), Encoding.UTF8, "application/json");
 
-            var response = await _httpClient.PostAsync("api/riders", itemJson);
+            var response = await _httpClient.PutAsync($"api/riders/{rider.Id}", itemJson);
 
             return response.IsSuccessStatusCode;
 
