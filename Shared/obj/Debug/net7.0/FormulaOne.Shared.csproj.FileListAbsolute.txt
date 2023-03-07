@@ -1,0 +1,12 @@
+/home/daffa/BlazorAppV2/FormulaOne/Shared/bin/Debug/net7.0/FormulaOne.Shared.deps.json
+/home/daffa/BlazorAppV2/FormulaOne/Shared/bin/Debug/net7.0/FormulaOne.Shared.dll
+/home/daffa/BlazorAppV2/FormulaOne/Shared/bin/Debug/net7.0/FormulaOne.Shared.pdb
+/home/daffa/BlazorAppV2/FormulaOne/Shared/obj/Debug/net7.0/FormulaOne.Shared.csproj.AssemblyReference.cache
+/home/daffa/BlazorAppV2/FormulaOne/Shared/obj/Debug/net7.0/FormulaOne.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/daffa/BlazorAppV2/FormulaOne/Shared/obj/Debug/net7.0/FormulaOne.Shared.AssemblyInfoInputs.cache
+/home/daffa/BlazorAppV2/FormulaOne/Shared/obj/Debug/net7.0/FormulaOne.Shared.AssemblyInfo.cs
+/home/daffa/BlazorAppV2/FormulaOne/Shared/obj/Debug/net7.0/FormulaOne.Shared.csproj.CoreCompileInputs.cache
+/home/daffa/BlazorAppV2/FormulaOne/Shared/obj/Debug/net7.0/FormulaOne.Shared.dll
+/home/daffa/BlazorAppV2/FormulaOne/Shared/obj/Debug/net7.0/refint/FormulaOne.Shared.dll
+/home/daffa/BlazorAppV2/FormulaOne/Shared/obj/Debug/net7.0/FormulaOne.Shared.pdb
+/home/daffa/BlazorAppV2/FormulaOne/Shared/obj/Debug/net7.0/ref/FormulaOne.Shared.dll

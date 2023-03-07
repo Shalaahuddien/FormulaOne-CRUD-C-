@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "aiCFPD6iO6g3P/kN5kk2fyEU78LtKptoJin+CCkZVvKin2Tv1ZhG4AxwhqqEOp1FFlZPvFR8UL3cgEf055Sh3Q==",
+  "success": true,
+  "projectFilePath": "/home/daffa/BlazorAppV2/FormulaOne/Shared/FormulaOne.Shared.csproj",
+  "expectedPackageFiles": [
+    "/home/daffa/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.3/microsoft.aspnetcore.app.ref.7.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
