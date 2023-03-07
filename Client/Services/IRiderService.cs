@@ -5,8 +5,8 @@ namespace FormulaOne.Client.Services;
 public interface IRiderService
 {
     Task<IEnumerable<Rider>?> All();
-    Task<Rider?> GetDriver(int id);
-    Task<Rider?> AddDriver(Rider rider);
+    Task<Rider?> GetRider(int id);
+    Task<Rider?> AddRider(Rider rider);
     Task<bool> Update(Rider rider);
-    Task<bool> Delete(Rider rider);
+    Task<bool> Delete(int id);
 }
