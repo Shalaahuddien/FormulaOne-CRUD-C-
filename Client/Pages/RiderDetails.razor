@@ -1,4 +1,13 @@
 @page "/riderdetails"
 @page "/riderdetails/{id}"
 
-<h1>Manage Rider</h1>
+@if(string.IsNullOrEmpty(Id))
+{
+    <PageTitle>Add New Rider</PageTitle>
+    <h1>Add New Rider</h1>
+}
+else
+{
+    <PageTitle>Manage Rider</PageTitle>
+    <h1>Manage Rider</h1>
+}

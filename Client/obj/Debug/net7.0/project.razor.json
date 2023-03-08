@@ -194,7 +194,7 @@
         }
       },
       {
-        "HashCode": -903712258,
+        "HashCode": 796076118,
         "Kind": "Components.Component",
         "Name": "FormulaOne.Client.Pages.RiderDetails",
         "AssemblyName": "FormulaOne.Client",
@@ -202,6 +202,17 @@
         "TagMatchingRules": [
           {
             "TagName": "RiderDetails"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
           }
         ],
         "Metadata": {
@@ -212,7 +223,7 @@
         }
       },
       {
-        "HashCode": 1632259509,
+        "HashCode": 161618894,
         "Kind": "Components.Component",
         "Name": "FormulaOne.Client.Pages.RiderDetails",
         "AssemblyName": "FormulaOne.Client",
@@ -220,6 +231,17 @@
         "TagMatchingRules": [
           {
             "TagName": "FormulaOne.Client.Pages.RiderDetails"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id",
+              "Common.GloballyQualifiedTypeName": "global::System.String"
+            }
           }
         ],
         "Metadata": {
