@@ -32,6 +32,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/daffa/BlazorAppV2/FormulaOne/Client/Pages/RiderDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmlkZXJEZXRhaWxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/daffa/BlazorAppV2/FormulaOne/Client/Pages/Riders.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmlkZXJzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 

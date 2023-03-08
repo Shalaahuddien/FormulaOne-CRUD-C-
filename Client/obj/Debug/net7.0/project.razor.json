@@ -194,6 +194,43 @@
         }
       },
       {
+        "HashCode": -903712258,
+        "Kind": "Components.Component",
+        "Name": "FormulaOne.Client.Pages.RiderDetails",
+        "AssemblyName": "FormulaOne.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "RiderDetails"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FormulaOne.Client.Pages.RiderDetails",
+          "Common.TypeNamespace": "FormulaOne.Client.Pages",
+          "Common.TypeNameIdentifier": "RiderDetails"
+        }
+      },
+      {
+        "HashCode": 1632259509,
+        "Kind": "Components.Component",
+        "Name": "FormulaOne.Client.Pages.RiderDetails",
+        "AssemblyName": "FormulaOne.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FormulaOne.Client.Pages.RiderDetails"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FormulaOne.Client.Pages.RiderDetails",
+          "Common.TypeNamespace": "FormulaOne.Client.Pages",
+          "Common.TypeNameIdentifier": "RiderDetails",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -315400425,
         "Kind": "Components.Component",
         "Name": "FormulaOne.Client.Shared.SurveyPrompt",
@@ -15952,6 +15989,11 @@
   },
   "RootNamespace": "FormulaOne.Client",
   "Documents": [
+    {
+      "FilePath": "/home/daffa/BlazorAppV2/FormulaOne/Client/Pages/RiderDetails.razor",
+      "TargetPath": "Pages\\RiderDetails.razor",
+      "FileKind": "component"
+    },
     {
       "FilePath": "/home/daffa/BlazorAppV2/FormulaOne/Client/Pages/FetchData.razor",
       "TargetPath": "Pages\\FetchData.razor",
