@@ -13,6 +13,13 @@ public partial class Riders
 
     public IEnumerable<Rider>_riders {get; set;} = new List<Rider>();
 
-    
+    protected async override Task OnInitializedAsync()
+    {
+        var apiRiders = await riderService.All();
+
+        if(apiRiders != null &&  apiRiders.Any() )
+            _riders = apiRiders;
+
+    }
 
 }
