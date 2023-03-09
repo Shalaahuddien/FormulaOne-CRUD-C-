@@ -38,7 +38,12 @@
                 <td>@item.Name</td>
                 <td>@item.RacingNb</td>
                 <td>@item.Team</td>
-                <td></td>
+                <td>
+
+                    <a href="@($"RiderDetails/{item.Id}")" class="btn btn-warning">Edit</a>
+
+
+                </td>
             </tr>
         }
 

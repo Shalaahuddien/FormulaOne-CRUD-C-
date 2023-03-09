@@ -35,6 +35,55 @@ public partial class RiderDetails
 
             if(apiRider != null)
                 rider = apiRider;
+        }
+    }
+
+    protected void HandleFailedRequest()
+    {
+        Message = "Something went wrong, form not submited.";
+    }
+
+    protected void GoToRiders()
+    {
+        navigationManager.NavigateTo("/Riders");
+    }
+
+    protected async Task DeleteRider()
+    {
+        if(!string.IsNullOrEmpty(Id))
+        {
+            var riderId = Convert.ToInt32(Id);
+            var result = await riderService.Delete(riderId);
+
+            if(result)
+                navigationManager.NavigateTo("/Riders");
+            else
+                Message = "Something went wrong, driver not deleted :( )";
+        }
+    }
+
+    protected async void HandleValidRequest()
+    {
+        if(string.IsNullOrEmpty(Id))
+        {
+            //Add driver
+            var result = await riderService.AddRider(rider);
+
+            if(result != null)
+                navigationManager.NavigateTo("/Riders");
+            else
+                Message = "Something went wrong, driver not added :( )";
+
+        }
+        else
+        {
+            //Update Driver
+            var result = await riderService.Update(rider);
+
+            if (result)
+                navigationManager.NavigateTo("/Riders");
+            else
+                Message = "Something went wrong, driver not updated :( )";
 
         }
     }

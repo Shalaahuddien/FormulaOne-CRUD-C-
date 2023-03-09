@@ -11,3 +11,43 @@ else
     <PageTitle>Manage Rider</PageTitle>
     <h1>Manage Rider</h1>
 }
+
+<div class="row">
+
+    <EditForm Model="@rider" OnValidSubmit="@HandleValidRequest" OnInvalidSubmit="@HandleFailedRequest">
+        <div class="form-group">
+            <label for="" class="col-md-3">Name</label>
+            <InputText class="col-md-8 form-control" @bind-Value="rider.Name"></InputText>
+        </div>
+
+        <div class="form-group">
+            <label for="" class="col-md-3">Racing Number</label>
+            <InputText class="col-md-8 form-control" @bind-Value="rider.RacingNb"></InputText>
+        </div>
+
+        <div class="form-group">
+            <label for="" class="col-md-3">Team</label>
+            <InputText class="col-md-8 form-control" @bind-Value="rider.Team"></InputText>
+        </div>
+
+        <br />
+
+        <div class="form-group">
+
+            <button type="submit" class="btn btn-warning">Save Driver</button>
+
+            <a href="" @onclick="@GoToRiders" class="btn btn-primary">back</a>
+
+            <br />
+
+            @* @if(string.IsNullOrEmpty(Id))
+            {
+                <a @onclick="@DeleteRider" class="btn btn-danger">Delete Rider</a>
+            } *@
+
+        </div>
+        <br />
+        <p style="color: red;">@Message</p>
+    </EditForm>    
+
+</div>
